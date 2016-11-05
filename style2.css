@@ -1,9 +1,97 @@
 <style>
-.contenedor-curso{
-			background: rgba(43, 62, 79);	
-		}
+body{
+  width: 1586px;
+  height: 1024px;
+}
+.encabezado-tres{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  word-spacing: 30px;
+  text-align: right;
+}
+.encabezado{
+  padding: 26px;
+}
+.encabezado-dos{
+  color: white;
+  text-align: left;
+  word-spacing:10px;
+  border-radius:0;
+  float:left;
+  height:50px;
+  padding:15px 15px;
+  font-size:20px;
+  line-height:20px;
+}
+.div {
+  width: 1586px;
+  margin-top: -15px;
+  margin-right:-15px;
+  margin-left:-15px;
+  background: rgb(43, 62, 79);
+  color: white;
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+}
+.encabezado-tres{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  word-spacing: 30px;
+  text-align: right;
+}
 
+.cuerpo {
+  width: 1586px;
+  margin-top: -15px;
+  margin-right:-15px;
+  margin-left:-15px;
+  text-align: center;
+  background: rgb(0, 189, 157);
+  color: white;
+}
+.tabla{
+  width: 1586px;
+  margin-top: -15px;
+  margin-right:-15px;
+  margin-left:-15px;
+  padding-right:15px;
+  padding-left:15px;
+  background-color: white;
+	color: black;
+	}
+  .img{
+    width: 240px;
+    height: 200px;
+    padding: 2px;
+    margin: 2px;
+  }
+.portfolio{
+  text-align:center;
+}
+  .social{
+    background: rgb(43, 62, 79);
+    color: white;
+    text-align: center;
+    float: center;
+    text-decoration: none;
+  }
+  .location{
+    background: rgb(43, 62, 79);
+    color: white;
+    text-align: left;
+    float:left;
+    padding:15px 15px;
+  }
+  .copyright{
+    margin-bottom: auto;
+    background: rgb(43, 62, 79);
+    color: white;
+    text-align: center;
+  }
 
-
-
+* {
+		font-family: 'Montserrat', sans-serif;
+	}
 </style>
