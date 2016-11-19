@@ -1,31 +1,14 @@
 <style>
 body{
-  width: 1586px;
-  height: 1024px;
+  width: 100%;
+  height: 100%;
+  margin-top: -30px;
+  margin-right:-50px;
+  margin-left:-50px;
 }
-.encabezado-tres{
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-  word-spacing: 30px;
-  text-align: right;
-}
-.encabezado{
-  padding: 26px;
-}
-.encabezado-dos{
-  color: white;
-  text-align: left;
-  word-spacing:10px;
-  border-radius:0;
-  float:left;
-  height:50px;
-  padding:15px 15px;
-  font-size:20px;
-  line-height:20px;
-}
+
 .div {
-  width: 1586px;
+  width: 100%;
   margin-top: -15px;
   margin-right:-15px;
   margin-left:-15px;
@@ -34,16 +17,10 @@ body{
   border-top-left-radius:0;
   border-top-right-radius:0;
 }
-.encabezado-tres{
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-  word-spacing: 30px;
-  text-align: right;
-}
 
 .cuerpo {
-  width: 1586px;
+  vertical-align: middle;
+  width: 100%;
   margin-top: -15px;
   margin-right:-15px;
   margin-left:-15px;
@@ -51,8 +28,13 @@ body{
   background: rgb(0, 189, 157);
   color: white;
 }
+.tabla i{
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
 .tabla{
-  width: 1586px;
+  width: auto;
   margin-top: -15px;
   margin-right:-15px;
   margin-left:-15px;
@@ -84,13 +66,172 @@ body{
     float:left;
     padding:15px 15px;
   }
-  .copyright{
-    margin-bottom: auto;
-    background: rgb(43, 62, 79);
-    color: white;
+  .contacto{
     text-align: center;
   }
+  .copyright{
+    padding-top: 10px;
+    margin-right:-15px;
+    margin-left:-15px;
+    margin-top: -18px;
+    height: 20%;
+    background: rgb(35, 49, 64);
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  .about{
+    margin-right:-15px;
+    margin-left:-15px;
+    text-align: justify;
+    padding: 10px 30px 30px 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 189, 157);
+    border-spacing: 30px;
+  }
 
+
+header{
+  width: 100%;
+  vertical-align: middle;;
+  background: rgb(43, 62, 79);
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+  display: inline-block;
+  margin-top: -15px;
+  margin-right:-15px;
+  margin-left:-15px;
+}
+
+  .div-izq{
+    font-size: 20px;
+    vertical-align: middle;;
+    display: inline;
+    color: white;
+    float: left;
+    text-align: left;
+    word-spacing:10px;
+    border-radius:0;
+    height:50px;
+    padding-left: 15px;
+    font-size:20px;
+  }
+  .div-der{
+    display: inline;
+    text-align: top;
+    float:right;
+
+  }
+
+  header nav div{
+  color: white;
+  display: inline;
+  vertical-align: middle;; /*alinea los elementos en la pagina de forma vertical. puedo usar otras formas, como middle, top o bottom.*/
+ }
+
+  }
+
+  header nav ul{
+    display: inline;
+    vertical-align: middle;;
+    list-style: none;
+    float: right;
+    padding: 40px;
+    margin: 40px;
+    text-align: right;
+    word-spacing: 40px;
+  }
+
+  header nav ul li{
+    vertical-align: middle;;
+    display: inline;
+    list-style: none;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+  }
+  header nav ul li a{
+    vertical-align: middle;;
+    color: white;
+    text-decoration: none;
+  }
+   header nav{
+   display: inline-block;
+   text-decoration: none;
+   vertical-align: middle;;
+   padding-bottom: 15px;
+   padding-top: 15px;
+ }
+
+header{
+  display: inline-block;
+  height: 150px;
+}
+table ul li .redes{
+  list-style:none;
+  text-decoration:none;
+  color:white;
+  display:inline;
+  vertical-align: middle;;
+}
+.contenedor{
+  padding: 15px;
+  color: white;
+  display: block;
+  background: rgb(43, 62, 79);
+  width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.columna-ancha{
+  width: 50%;
+  float: left;
+}
+.columna-angosta{
+  width: 50%;
+  float: right;
+  text-decoration: none;
+  color: white;
+  vertical-align: top;
+  list-style: none;
+}
+.redes{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: inline-block;
+  margin: auto 5px;
+}
+.linkssocial{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: inline;
+}
+.clearfix{
+  clear: both;
+}
+.formulario{
+  position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+  align-items: center;
+  width: 400px;
+  margin: auto
+}
+.formulario-dos{
+  border: none;
+  border-top: solid 0.1px #666;
+  width: 100%;
+}
+
+.ionic{
+  border: solid 1px;
+  color: white;
+}
 * {
 		font-family: 'Montserrat', sans-serif;
 	}
